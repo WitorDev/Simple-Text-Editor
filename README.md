@@ -5,7 +5,7 @@ A simple text editor made in a few minutes with vanilla HTML, CSS and Javascript
 
 <h1>Text Editor</h1>
 
-Check it out right [HERE](/guides/content/editing-an-existing-page#modifying-front-matter](https://witordev.github.io/Simple-Text-Editor/)
+Check it out right [here](https://witordev.github.io/Simple-Text-Editor/)
 
 <p>It allows for simple text editing inside of the typing area...</p>
 
