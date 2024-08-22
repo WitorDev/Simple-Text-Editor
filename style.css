@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    padding: 15vw;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: fit-content;
+}
+button{
+    margin-inline: 5%;
+}
+textarea{
+    width: 50vw;
+    height: 50vh;
+}

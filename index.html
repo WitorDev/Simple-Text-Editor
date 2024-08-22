@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <h1>Text Editor</h1>
+    <hr>
+    <br>
+    <div class="app-container">
+        <div class="button-container">
+            <button onclick="alignLeft()">
+                <i class="fas fa-2x fa-align-left"></i>
+            </button>
+            <button onclick="alignJustify()">
+                <i class="fas fa-2x fa-align-justify"></i>
+            </button>
+            <button onclick="alignRight()">
+                <i class="fas fa-2x fa-align-right"></i>
+            </button>
+            <button onclick="italic()">
+                <i class="fas fa-2x fa-italic"></i>
+            </button>
+            <button onclick="bold()">
+                <i class="fas fa-2x fa-bold"></i>
+            </button>
+        </div>
+        <br>
+        <textarea id="text">
+        </textarea>
+    </div>
+</body>
+</html>
